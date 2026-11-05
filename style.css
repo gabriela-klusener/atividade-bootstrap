@@ -1,9 +1,10 @@
-/*carrousel */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: #ecf4ff;
+    color: #333333;
 }
-
+/*carrousel */
 .imagem-carrossel {
     height: 450px;
     width: 100%;
@@ -39,6 +40,26 @@ body {
 }
 
 /*cards*/
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card .btn {
+    border-radius: 20px;
+}
+
 .titulo-secao {
     color: #176b87;
     font-weight: bold;
@@ -49,21 +70,6 @@ body {
     object-fit: cover;
 }
 
-.card {
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-
-
-/* Cores e aparência geral */
-body {
-    background-color: #ecf4ff;
-    color: #333333;
-}
 
 /* Navbar */
 .navbar-brand {
@@ -87,21 +93,6 @@ section {
 .titulo-secao {
     color: #176b87;
     font-weight: bold;
-}
-
-/* Cards */
-.card {
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.card-body {
-    padding: 20px;
-}
-
-.card .btn {
-    border-radius: 20px;
 }
 
 /* Formulário */
