@@ -1,0 +1,166 @@
+/*carrousel */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.imagem-carrossel {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#carouselClinica {
+    margin: 30px auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background-color: rgba(55, 55, 55, 0.75);
+    border-radius: 15px;
+    padding: 10px 10px;
+    max-width: 650px;
+    margin: 0 auto 10px;
+}
+
+.carousel-caption h2 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*cards*/
+.titulo-secao {
+    color: #176b87;
+    font-weight: bold;
+}
+
+.imagem-dentista {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+/* Cores e aparência geral */
+body {
+    background-color: #ecf4ff;
+    color: #333333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 22px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+/* Espaçamento das seções */
+section {
+    scroll-margin-top: 75px;
+}
+
+/* Títulos */
+.titulo-secao {
+    color: #176b87;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card .btn {
+    border-radius: 20px;
+}
+
+/* Formulário */
+#formAgendamento {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.form-control,
+.form-select {
+    padding: 10px;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #176b87;
+    border-color: #176b87;
+}
+
+.btn-primary:hover {
+    background-color: #12566d;
+    border-color: #12566d;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+
+    @media (max-width: 576px) {
+    #carouselClinica {
+        margin: 10px 10px;
+    }
+
+    .imagem-carrossel {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 18px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    #formAgendamento {
+        padding: 18px;
+    }
+
+    .titulo-secao {
+        font-size: 24px;
+    }
+}

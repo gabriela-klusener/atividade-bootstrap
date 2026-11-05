@@ -1,0 +1,701 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sorriso - Clínica Odontológica</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold text-primary" href="#inicio">
+                    Sorriso Clínica
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menu de navegação"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">
+                                Início
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipe">
+                                Nossa equipe
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#procedimentos">
+                                Procedimentos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#agendamento">
+                                Agendamento
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="inicio">
+
+            <div id="carouselClinica" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                    <button type="button"
+                        data-bs-target="#carouselClinica"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1">
+                    </button>
+
+                    <button type="button"
+                        data-bs-target="#carouselClinica"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
+
+                    <button type="button"
+                        data-bs-target="#carouselClinica"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img
+                            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600"
+                            class="d-block w-100 imagem-carrossel"
+                            alt="Ambiente de uma clínica odontológica"
+                        >
+
+                        <div class="carousel-caption">
+                            <h2>Cuidando do seu sorriso</h2>
+                            <p>Atendimento especializado para toda a família.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1600"
+                            class="d-block w-100 imagem-carrossel"
+                            alt="Atendimento odontológico"
+                        >
+
+                        <div class="carousel-caption">
+                            <h2>Tecnologia e qualidade</h2>
+                            <p>Tratamentos modernos com profissionais qualificados.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1600"
+                            class="d-block w-100 imagem-carrossel"
+                            alt="Profissional realizando procedimento odontológico"
+                        >
+
+                        <div class="carousel-caption">
+                            <h2>Seu sorriso merece atenção</h2>
+                            <p>Agende sua consulta e conheça nossa equipe.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselClinica"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+
+                </button>
+
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselClinica"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próximo</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="equipe" class="py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="titulo-secao">Conheça nossa equipe</h2>
+                    <p class="text-muted">
+                        Profissionais preparados para cuidar do seu sorriso.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600"
+                                class="card-img-top imagem-dentista"
+                                alt="Dentista da clínica">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dra. Maria Fernanda</h5>
+                                <h6 class="text-primary">Odontopediatria</h6>
+                                <p class="card-text">
+                                    Especialista em atendimento odontológico infantil,
+                                    com foco no cuidado e bem-estar das crianças.
+                                </p>
+                                <a href="#agendamento" class="btn btn-primary">
+                                    Agendar consulta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dentista 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600"
+                                class="card-img-top imagem-dentista"
+                                alt="Dentista da clínica">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dr. João Pedro</h5>
+                                <h6 class="text-primary">Ortodontia</h6>
+                                <p class="card-text">
+                                    Especialista em alinhamento dentário e tratamentos
+                                    ortodônticos.
+                                </p>
+                                <a href="#agendamento" class="btn btn-primary">
+                                    Agendar consulta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dentista 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600"
+                                class="card-img-top imagem-dentista"
+                                alt="Dentista da clínica">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dra. Ana Clara</h5>
+                                <h6 class="text-primary">Endodontia</h6>
+                                <p class="card-text">
+                                    Atua em tratamentos de canal e preservação
+                                    da saúde dos dentes.
+                                </p>
+                                <a href="#agendamento" class="btn btn-primary">
+                                    Agendar consulta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dentista 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600"
+                                class="card-img-top imagem-dentista"
+                                alt="Dentista da clínica">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dr. Rafael Costa</h5>
+                                <h6 class="text-primary">Implantodontia</h6>
+                                <p class="card-text">
+                                    Especialista em implantes dentários e
+                                    reabilitação oral.
+                                </p>
+                                <a href="#agendamento" class="btn btn-primary">
+                                    Agendar consulta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dentista 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600"
+                                class="card-img-top imagem-dentista"
+                                alt="Dentista da clínica">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dra. Juliana Alves</h5>
+                                <h6 class="text-primary">Periodontia</h6>
+                                <p class="card-text">
+                                    Especialista na prevenção e tratamento
+                                    de doenças da gengiva.
+                                </p>
+                                <a href="#agendamento" class="btn btn-primary">
+                                    Agendar consulta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dentista 6 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?w=600"
+                                class="card-img-top imagem-dentista"
+                                alt="Dentista da clínica">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dr. Lucas Martins</h5>
+                                <h6 class="text-primary">Clínica Geral</h6>
+                                <p class="card-text">
+                                    Realiza avaliações, limpezas e cuidados
+                                    gerais com a saúde bucal.
+                                </p>
+                                <a href="#agendamento" class="btn btn-primary">
+                                    Agendar consulta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+                
+        <section id="procedimentos" class="py-5 bg-light">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="titulo-secao">Procedimentos e valores</h2>
+                    <p class="text-muted">
+                        Confira alguns dos serviços oferecidos pela nossa clínica.
+                    </p>
+                </div>
+
+                <div class="table-responsive">
+
+                    <table class="table table-striped table-hover table-bordered">
+
+                        <thead class="table-primary">
+                            <tr>
+                                <th scope="col">Procedimento</th>
+                                <th scope="col">Valor com plano</th>
+                                <th scope="col">Valor particular</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Consulta de avaliação</td>
+                                <td>R$ 0,00</td>
+                                <td>R$ 120,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Limpeza dentária</td>
+                                <td>R$ 0,00</td>
+                                <td>R$ 180,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Clareamento dental</td>
+                                <td>R$ 250,00</td>
+                                <td>R$ 600,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Restauração</td>
+                                <td>R$ 0,00</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Tratamento de canal</td>
+                                <td>R$ 150,00</td>
+                                <td>R$ 750,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Extração dentária</td>
+                                <td>R$ 80,00</td>
+                                <td>R$ 300,00</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="agendamento" class="py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="titulo-secao">Agende sua consulta</h2>
+                    <p class="text-muted">
+                        Preencha seus dados para solicitar um agendamento.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-lg-8">
+
+                        <form id="formAgendamento">
+
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">
+                                    Nome completo
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="nome"
+                                    name="nome"
+                                    placeholder="Digite seu nome"
+                                    required
+                                >
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">
+                                    E-mail
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    name="email"
+                                    placeholder="exemplo@email.com"
+                                    required
+                                >
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">
+                                    Telefone
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="telefone"
+                                    name="telefone"
+                                    placeholder="(71) 99999-9999"
+                                    required
+                                >
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="endereco" class="form-label">
+                                    Endereço residencial
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="endereco"
+                                    name="endereco"
+                                    placeholder="Rua, número e bairro"
+                                    required
+                                >
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="unidade" class="form-label">
+                                    Escolha a unidade
+                                </label>
+
+                                <select
+                                    class="form-select"
+                                    id="unidade"
+                                    name="unidade"
+                                    required
+                                >
+                                    <option value="" selected disabled>
+                                        Selecione uma unidade
+                                    </option>
+
+                                    <option value="centro">
+                                        Unidade Centro
+                                    </option>
+
+                                    <option value="imbui">
+                                        Unidade Imbuí
+                                    </option>
+
+                                    <option value="pituba">
+                                        Unidade Pituba
+                                    </option>
+
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="especialidade" class="form-label">
+                                    Especialidade desejada
+                                </label>
+
+                                <select
+                                    class="form-select"
+                                    id="especialidade"
+                                    name="especialidade"
+                                    required
+                                >
+                                    <option value="" selected disabled>
+                                        Selecione uma especialidade
+                                    </option>
+
+                                    <option>Odontopediatria</option>
+                                    <option>Ortodontia</option>
+                                    <option>Endodontia</option>
+                                    <option>Implantodontia</option>
+                                    <option>Periodontia</option>
+                                    <option>Clínica Geral</option>
+
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="data" class="form-label">
+                                    Data desejada
+                                </label>
+
+                                <input
+                                    type="date"
+                                    class="form-control"
+                                    id="data"
+                                    name="data"
+                                    required
+                                >
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                Solicitar agendamento
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <div class="container text-center py-4">
+        <button
+            type="button"
+            class="btn btn-outline-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#modalAviso"
+        >
+            Ver comunicado sobre os planos
+        </button>
+    </div>
+
+    <div
+        class="modal fade"
+        id="modalAviso"
+        tabindex="-1"
+        aria-labelledby="tituloModal"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="tituloModal">
+                        Comunicado importante
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Fechar"
+                    ></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>
+                        Prezados pacientes, informamos que, a partir de
+                        <strong>31/10/2027</strong>, nossa clínica não aceitará
+                        mais os seguintes planos odontológicos:
+                    </p>
+
+                    <ul>
+                        <li>Hapvida</li>
+                        <li>Planserv</li>
+                        <li>Unimed</li>
+                    </ul>
+
+                    <p>
+                        Agradecemos a compreensão e permanecemos à disposição
+                        para esclarecer dúvidas.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="bg-dark text-white py-4">
+
+        <div class="container">
+
+            <div class="row text-center text-md-start">
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <h5>Sorriso Clínica</h5>
+
+                    <p>
+                        Cuidando da saúde e do bem-estar
+                        do seu sorriso.
+                    </p>
+
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <h5>Navegação</h5>
+
+                    <ul class="list-unstyled">
+
+                        <li>
+                            <a href="#inicio" class="text-white text-decoration-none">
+                                Início
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#equipe" class="text-white text-decoration-none">
+                                Nossa equipe
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#procedimentos" class="text-white text-decoration-none">
+                                Procedimentos
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#agendamento" class="text-white text-decoration-none">
+                                Agendamento
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <h5>Contato</h5>
+
+                    <p>Salvador - BA</p>
+                    <p>Telefone: (71) 3333-3333</p>
+                    <p>contato@sorrisoclinica.com.br</p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p class="mb-0">
+                    © 2026 Sorriso Clínica Odontológica.
+                    Todos os direitos reservados.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
