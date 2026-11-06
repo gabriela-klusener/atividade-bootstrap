@@ -124,8 +124,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-
-    @media (max-width: 576px) {
+    
     #carouselClinica {
         margin: 10px 10px;
     }
